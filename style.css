@@ -9,25 +9,29 @@
   header {
     margin-left: 40%;
     background-color: #f1f1f1;
-    padding: 100px;
+    padding: 10px;
   }
   
   /* Стили для секции с продуктами */
   #products {
+    margin-top: 102px;
+    justify-content: center;
+    margin-left:222px;
     display: flex;
     flex-wrap: wrap;
   }
   
   .product {
+
     width: 300px;
-    margin: 10px;
-    padding: 30px;
-    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 5px;
+    border: 0px solid #cccccc30;
     text-align: center;
   }
   
   .product img {
-    width: 200px;
+    width: 305px;
     height: auto;
     margin-bottom: 10px;
   }
