@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="/font/RobotoMono-Light.woff">
+  <title>Мій магазин</title>
+  
+</head>
+<body>
+   
+
+   
+   
+
+  <main>
+    <div id="myNavLeft" class="overlay overlay-left">
+      <b href="javascript:void(0)" class="closebtn" onclick="closeNavLeft()">×</b>
+      <div class="overlay-content">
+        <h3>МЕНЮ</h3>
+        <a href="#">Сорти</a>
+        <a href="#">Про нас</a>
+        <a href="#">Аксесуари</a>
+      </div>
+    </div>
+    
+    <div id="myNavRight" class="overlay overlay-right">
+      <b href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">×</b>
+      <div class="overlay-content">
+        <div class="cart-item">
+          <img src="img/whitetea.png" alt="Product 1">
+          <h3>Чай білий “Тікспай”</h3>
+          <p>Ціна:169UAH|100g</p>
+          <p>1шт</p>
+        </div>
+    
+        <button class="checkout-button">Оформити замовлення</button>
+      </div>
+       
+    </div>
+    
+    
+    
+    <span class="openbtn openbtn-left" onclick="openNavLeft()"><img src="img/logo.png" alt="Логотип магазина"> </span>
+    <span class="openbtn openbtn-right" onclick="openNavRight()"><img src="img/basket.svg" alt="Кошик"></span>
+    
+    <script >function openNavLeft() {
+      document.getElementById("myNavLeft").style.width = "252px";
+  }
+  
+  function closeNavLeft() {
+      document.getElementById("myNavLeft").style.width = "0%";
+  }
+  
+  function openNavRight() {
+      document.getElementById("myNavRight").style.width = "18%";
+  }
+  
+  function closeNavRight() {
+      document.getElementById("myNavRight").style.width = "0%";
+  }</script>
+    <header>
+      <div class="golovna">
+        <a href="index.html"> <img src="img/logo.png" alt="головна"></a>     
+      </header>
+    <section id="productss">
+     
+    
+  
+      <div class="product1">
+        <img src="img/whitetea.png" alt="Product 1">
+      </div>
+      <div class="text">
+        <h3>Чай білий “Тікспай”</h3>
+        <p>Ціна:169UAH|100g</p>
+        <button class="add-to-cart">Додати в кошик</button>
+      </div>
+       <div class="text1">
+        <p>Бі́лий чай (англ. White Tea, Silver Tips; Camellia sinensis) — малоокиснений різновид чаю. В основі технології білого чаю лежить ідея якомога менше обробляти чайний лист, а отже, максимально зберегти всі його природні властивості.
+
+            Білий чай поширений переважно в Китаї і вважається одним із найвишуканіших і найдорожчих чаїв. Для нього збирають бруньки та молоді листочки першого врожаю чаю, які тільки наполовину розкрилися. Після заварювання білий чай має блідо-жовтий або зеленувато-жовтий колір, тонкий квітковий або трав'яний аромат та солодкуватий смак. З усіх видів чаю він має найбільше корисних речовин та містить найбільшу кількість чайного кофеїну, який називається теїном[1].
+            
+            Білий чай має надзвичайно тонкий аромат, який дуже легко вбирає навколишні запахи. Саме тому збиральникам чаю заборонено вживати в їжу цибулю, часник та гострі спеції, інакше вони можуть занапастити оригінальний аромат чаю. В сезон збору білого чаю, на початку квітня, в Китаї квітнуть фруктові сади, які нерідко межують із чайними плантаціями. Аромат квітів осідає на сріблястих ворсинках перших чайних листочків, що надає напою характерного квіткового аромату.</p>
+      </div>
+     
+      
+
+  </main>
+
+  <footer>
+    <p>Мій інтернет магазик &copy; 2023. Всі права захищені.</p>
+    <nav>
+      <ul>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Правила користування</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
